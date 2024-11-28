@@ -1,0 +1,15 @@
+node_modules
+.idea/
+.vscode/
+dist/
+pnpm-lock.yaml
+packages/shorts-be/uploads
+packages/shorts-be/deploy/nginx/nginx.conf
+
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+.DS_Store

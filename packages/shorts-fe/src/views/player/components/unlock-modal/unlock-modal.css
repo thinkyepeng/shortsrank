@@ -1,0 +1,155 @@
+.unlock-1 {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: relative;
+  margin: 15vh auto 50px;
+  box-shadow: 0px 12px 32px 4px rgba(0, 0, 0, 0.04),
+    0px 8px 20px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  padding: 16px;
+  overflow-wrap: break-word;
+  text-align: center;
+  width: 524px;
+  height: 278px;
+  border-radius: 18px;
+  flex-direction: column;
+  background: rgb(25, 25, 25) !important;
+  flex-wrap: inherit !important;
+}
+
+.unlock-1:focus {
+  outline: 0px !important;
+}
+
+.unlock-2 {
+  display: block;
+  padding-bottom: 16px;
+  padding-right: calc(16px + 16px);
+}
+
+.unlock-3 {
+  list-style: none;
+  width: 100%;
+  text-align: left;
+}
+
+.unlock-4 {
+  list-style: none;
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  width: 100%;
+  text-align: left;
+}
+
+.unlock-6 {
+  list-style: none;
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  width: 100%;
+  text-align: left;
+}
+
+.unlock-8 {
+  color: inherit;
+  font: inherit;
+  margin: 0px;
+  overflow: visible;
+  text-transform: none;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 0px;
+  width: 48px;
+  height: 48px;
+  background: 0px 0px;
+  border: none;
+  outline: 0px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.unlock-8:focus {
+  outline: none;
+}
+
+.unlock-9 {
+  height: 1em;
+  width: 1em;
+  line-height: 1em;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  fill: white;
+  color: unset !important;
+  font-size: inherit;
+}
+
+.unlock-10 {
+  height: 1em;
+  width: 1em;
+}
+
+.unlock-11 {
+  color: white;
+  fill: currentColor;
+}
+
+.unlock-12 {
+  color: #606266;
+  font-size: 14px;
+  text-align: initial;
+}
+
+.unlock-13 {
+  display: block;
+  padding-top: 16px;
+  box-sizing: border-box;
+  text-align: inherit;
+}
+
+.unlock-15 {
+  backface-visibility: hidden;
+  display: block;
+  width: 384px;
+  height: 57px;
+  line-height: 57px;
+  background: rgb(251, 56, 1);
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  border-radius: 28.3px;
+  cursor: pointer;
+}
+
+.unlock-15:hover {
+  opacity: 0.9;
+}
+
+.unlock-16 {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 27px;
+  justify-content: center !important;
+}
+
+.unlock-17 {
+  display: block;
+  border-style: none;
+  width: 21px;
+  height: 21px;
+  cursor: pointer;
+  margin-right: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .unlock-1 {
+    width: auto;
+  }
+  .unlock-15 {
+    width: auto;
+    height: 47px;
+    line-height: 47px;
+  }
+}

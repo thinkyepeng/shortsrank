@@ -1,0 +1,19 @@
+.user-center-1 {
+  width: 1180px;
+  height: 100%;
+  margin: 0 auto;
+  min-height: 600px;
+  max-height: 1000px;
+}
+.user-center-2 {
+  margin-top: 0.45rem;
+  padding-left: .45rem;
+}
+@media screen and (max-width: 600px) {
+  .user-center-1 {
+    width: auto;
+  }
+  .user-center-2 {
+    padding-left: 0;
+  }
+}

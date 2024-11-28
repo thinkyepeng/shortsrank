@@ -1,0 +1,125 @@
+.video-button-1 {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+  padding: 0px;
+  border: 0px;
+  vertical-align: baseline;
+  font-size: 0.147rem;
+  width: 0.67rem;
+  height: 0.54rem;
+  line-height: 0.54rem;
+  text-align: center;
+  border-radius: 0.1rem;
+  background: rgb(107, 107, 107);
+  position: relative;
+  overflow: hidden;
+  margin: 0.05rem;
+  cursor: pointer;
+}
+
+.video-button-1:hover {
+  filter: brightness(1.1);
+}
+
+.video-button-3 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  top: -0.05rem;
+  right: -0.15rem;
+  padding-left: 0.08rem;
+  padding-top: 0.05rem;
+  width: 0.4rem;
+  height: 0.25rem;
+  border-radius: 0.1rem;
+  background: rgb(209, 45, 1);
+}
+
+.video-button-4 {
+  border-style: none;
+  display: block;
+  width: 0.1rem;
+  height: 0.12rem;
+}
+
+.page-player-258 {
+  
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  border-bottom: 1px solid rgb(107, 107, 107);
+  margin-bottom: 30px;
+}
+
+.page-player-259 {
+  
+  width: 54px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  margin-right: 38px;
+  cursor: pointer;
+  color: rgb(153, 153, 153);
+  font-size: 16px;
+  border-bottom: 2px solid rgb(251, 56, 1);
+}
+
+.page-player-262 {
+  
+  display: flex;
+  flex-flow: wrap;
+  justify-content: flex-start;
+}
+
+.page-player-263 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 41px;
+  background: rgba(255, 255, 255, 0.16);
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 6px;
+  position: relative;
+  margin: 2%;
+}
+
+.page-player-264 {
+  display: block;
+  border-style: none;
+}
+
+.page-player-265 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 41px;
+  background: rgba(255, 255, 255, 0.16);
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 6px;
+  position: relative;
+  margin: 2%;
+}
+
+.page-player-271 {
+  font-weight: 400;
+  transition: all 0.3s ease 0s;
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 19px;
+  height: 16px;
+  background: url("@/assets/img/icon.png")
+    0% 0% / 300px 300px no-repeat;
+  background-position: 0px -25px;
+}

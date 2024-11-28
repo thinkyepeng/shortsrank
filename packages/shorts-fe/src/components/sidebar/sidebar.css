@@ -1,0 +1,168 @@
+.sidebar-1 {
+  width: 301px;
+  margin-top: 0.45rem;
+}
+
+.sidebar-2 {
+  min-width: 151px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sidebar-3 {
+  display: block;
+  border-style: none;
+}
+
+.sidebar-4 {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.sidebar-5 {
+  list-style: none;
+  font-size: 0.2rem;
+  color: rgb(255, 255, 255);
+}
+
+.sidebar-6 {
+  list-style: none;
+  font-size: 0.14rem;
+  color: rgb(153, 153, 153);
+}
+
+.sidebar-7 {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  border: 0px;
+  vertical-align: baseline;
+  margin-top: 30px;
+  border-radius: 0.04rem;
+  width: 301px;
+  height: 156px;
+  padding: 20px 24px;
+  background: linear-gradient(
+      to right bottom,
+      rgb(252, 164, 146),
+      rgb(250, 96, 45),
+      rgb(235, 24, 26),
+      rgb(235, 24, 26)
+    ),
+    linear-gradient(
+      to top,
+      rgb(235, 24, 26),
+      rgb(235, 24, 26),
+      rgb(235, 24, 26)
+    );
+}
+
+.sidebar-8 {
+  white-space: nowrap;
+  display: block;
+  width: 113px;
+  font-family: PuHuiMedium;
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: rgb(255, 255, 255);
+}
+
+.sidebar-9 {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+  padding: 0px;
+  border: 0px;
+  vertical-align: baseline;
+  color: white;
+  margin: 12px 0px;
+}
+
+.sidebar-10 {
+  display: inline-block;
+  width: 30px;
+  height: 21px;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAVCAYAAABR915hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ4IDc5LjE2NDAzNiwgMjAxOS8wOC8xMy0wMTowNjo1NyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjAgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkNDMjFEMEU0QTBCOTExRUVCMkVGQzc4OUNBNEE4RjQzIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkNDMjFEMEU1QTBCOTExRUVCMkVGQzc4OUNBNEE4RjQzIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Q0MyMUQwRTJBMEI5MTFFRUIyRUZDNzg5Q0E0QThGNDMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6Q0MyMUQwRTNBMEI5MTFFRUIyRUZDNzg5Q0E0QThGNDMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz50KpGnAAAGPUlEQVR42rRWaWxU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")
+    0% 0% / 100% 100%;
+}
+
+.sidebar-11 {
+  font-size: 0.26rem;
+  margin-left: 6px;
+  color: white;
+}
+
+.sidebar-12 {
+  font-size: 0.2rem;
+  color: white;
+  margin-left: 8px;
+}
+
+.sidebar-13 {
+  backface-visibility: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-weight: bolder;
+  display: block;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  font-size: 16px;
+  color: rgb(251, 56, 1);
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 19px;
+}
+
+.sidebar-13:focus {
+  outline: none;
+}
+
+.sidebar-14 {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  width: 301px;
+  height: 46px;
+  border-radius: 4px;
+  background: rgb(41, 41, 41);
+  margin-top: 22px;
+  cursor: pointer;
+  color: #fb3801;
+}
+
+.sidebar-14:hover {
+  filter: brightness(0.8);
+  color: #fb3801;
+}
+
+.sidebar-15 {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.sidebar-16 {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+  fill: #fb3801 !important;
+}
+
+.sidebar-17 {
+  text-align: center;
+  line-height: 46px;
+  margin: 0px 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .sidebar-1 {
+    width: 100%;
+  }
+  .sidebar-7 {
+    width: auto;
+  }
+  .sidebar-14 {
+    width: auto;
+  }
+}

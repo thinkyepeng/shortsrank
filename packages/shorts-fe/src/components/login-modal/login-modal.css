@@ -1,0 +1,161 @@
+.login-modal-1 {
+  overflow: auto;
+  border-radius: 4px;
+  will-change: scroll-position;
+  max-height: calc(-48px + 100vh);
+  pointer-events: all;
+  background: url("@/assets/img/login-bg.png")
+    0% 0% / 100% 100% no-repeat;
+  width: 4.63rem;
+  height: 6.04rem;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+}
+
+@media (min-width: 600px) {
+  .login-modal-1 {
+    max-width: 560px;
+  }
+}
+.login-modal-2 {
+  cursor: pointer;
+  font-size: 0.26rem;
+  width: 0.26rem;
+  height: 0.26rem;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 0.1rem;
+  right: 0.1rem;
+}
+
+.login-modal-3 {
+  display: block;
+  border-style: none;
+  margin-top: 0.9rem;
+  width: 0.78rem;
+  height: 0.78rem;
+}
+
+.login-modal-4 {
+  display: block;
+  border-style: none;
+  width: 1.76rem;
+  height: 0.24rem;
+}
+
+.login-modal-5 {
+  margin: 0px 0px 16px;
+  text-align: center;
+  font-size: 0.16rem;
+  color: rgb(255, 255, 255);
+}
+
+.login-modal-6 {
+  display: block;
+  border-style: none;
+  width: 3.2rem;
+  cursor: pointer;
+  transition: transform 0.2s ease 0s, -webkit-transform 0.2s ease 0s;
+}
+
+.login-modal-7 {
+  display: block;
+  border-style: none;
+  position: absolute;
+  top: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 0.5rem;
+  cursor: pointer;
+  background: url("@/assets/img/google_btn.png")
+    0% 0% / 100% no-repeat;
+  transition: transform 0.2s ease 0s, -webkit-transform 0.2s ease 0s;
+  z-index: 1;
+  pointer-events: none;
+  width: 3.2rem !important;
+  margin-top: 0px !important;
+}
+
+.login-modal-8 {
+  height: 0.5rem;
+  pointer-events: all;
+  width: 3.2rem !important;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+
+.login-modal-9 {
+  width: 3.2rem;
+  filter: brightness(0.1);
+  z-index: 0;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+.login-modal-10 {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.login-modal-11 {
+  display: block;
+  border-style: none;
+  width: 3.2rem;
+  cursor: pointer;
+  transition: transform 0.2s ease 0s, -webkit-transform 0.2s ease 0s;
+}
+
+.login-modal-12 {
+  margin: 0px 0px 16px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 0.15rem;
+  width: 3.4rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.5rem;
+  font-family: PuHuiRegular;
+  opacity: 0.73;
+}
+
+.login-modal-13 {
+  color: rgb(255, 255, 255);
+  backface-visibility: hidden;
+  text-decoration: underline;
+}
+
+.login-modal-13:focus {
+  outline: none;
+}
+
+.login-modal-14 {
+  color: rgb(255, 255, 255);
+  backface-visibility: hidden;
+  text-decoration: underline;
+}
+
+.login-modal-14:focus {
+  outline: none;
+}
+
+.g_id_signin {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-top: 3px;
+}
+@media screen and (max-width: 600px) {
+  .login-modal-8 {
+    height: 28px;
+  }
+}

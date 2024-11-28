@@ -1,0 +1,33 @@
+.section-1 {
+  position: relative;
+  height: auto;
+  padding: 50px calc(-5.98rem + 50vw) 0px;
+  padding-bottom: 0;
+}
+
+.section-3 {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.section-4 {
+  position: relative;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.section-5 {
+  font-size: 0.32rem;
+  margin-bottom: 0.34rem;
+  font-weight: 700;
+}
+@media screen and (max-width: 600px) {
+  .section-1 {
+    padding: 20px 10px 0 10px;
+  }
+  .section-4 {
+    margin-bottom: 10px;
+  }
+}

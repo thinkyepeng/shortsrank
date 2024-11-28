@@ -1,0 +1,19 @@
+.search-wrapper {
+  overflow-y: hidden;
+  padding: 56px calc((100vw - 11.96rem) / 2) 0;
+  margin: auto;
+  background: transparent;
+  overflow-x: hidden;
+  min-height: calc(100vh - 260px);
+  color: white;
+}
+.search-list {
+  padding-top: 0.75rem;
+  width: 1196px;
+  margin: auto;
+}
+@media screen and (max-width: 600px) {
+  .search-list {
+    width: auto;
+  }
+}

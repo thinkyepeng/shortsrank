@@ -1,0 +1,6 @@
+.category-wrapper {
+  padding: 0 calc(-5.98rem + 50vw) 0px;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}

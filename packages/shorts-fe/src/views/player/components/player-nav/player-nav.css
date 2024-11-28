@@ -1,0 +1,46 @@
+.player-nav-1 {
+  margin: 0px auto;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  height: 45px;
+  line-height: 45px;
+  background-color: rgb(26, 26, 26);
+  z-index: 99;
+}
+
+.player-nav-2 {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  transform: rotate(45deg);
+  border-left: 2.5px solid rgb(255, 255, 255);
+  border-bottom: 2.5px solid rgb(255, 255, 255);
+  background-color: transparent;
+}
+
+.player-nav-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%);
+  display: inline-block;
+  width: 80%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 600px) {
+  .player-nav-1 {
+    display: flex;
+  }
+}

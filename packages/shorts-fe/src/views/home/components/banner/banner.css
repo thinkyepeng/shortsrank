@@ -1,0 +1,93 @@
+.banner-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.banner-2 {
+  height: 4.82rem;
+  position: absolute;
+}
+
+.banner-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: absolute;
+  right: 0px;
+  top: 0.34rem;
+  padding-right: calc(50% - 5.98rem);
+  z-index: 10;
+  font-family: PuHuiMedium;
+}
+
+.banner-4 {
+  display: flex;
+  flex-direction: column;
+  width: 2.23rem;
+  height: 0.64rem;
+  cursor: pointer;
+  padding: 0.05rem 0px;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.2) 45%,
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.banner-5 {
+  animation-delay: 0.1s;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: 1;
+  font-size: 0.24rem;
+}
+
+.banner-6 {
+  font-size: 0.16rem;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.banner-7 {
+  background: black;
+  position: relative;
+  height: 4.82rem;
+}
+
+.banner-8 {
+  display: block;
+  border-style: none;
+  animation: 0.4s linear 0s 1 normal none running fade-in;
+  height: 4.82rem;
+  cursor: pointer;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.banner-9 {
+  pointer-events: none;
+  opacity: 0.7;
+  position: absolute;
+  top: 0px;
+  height: 4.82rem;
+  width: 100%;
+  background: url("@/assets/img/shadow-bg.png")
+    0% 0% / 100% 100% no-repeat;
+}
+
+@media screen and (max-width: 600px) {
+  .banner-3 {
+    padding-right: initial;
+    right: auto;
+  }
+}

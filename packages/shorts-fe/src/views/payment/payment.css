@@ -1,0 +1,231 @@
+.payment-page-1 {
+  width: 1180px;
+  height: 100%;
+  margin: 0 auto;
+  min-height: 600px;
+  max-height: 1000px;
+}
+.payment-page-2 {
+  margin-top: 0.45rem;
+  padding-left: .45rem;
+}
+
+.payment-1 {
+  margin-left: 51px;
+}
+
+.payment-2 {
+  width: 600px;
+  margin: 0px auto;
+}
+
+.payment-3 {
+  list-style: none;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: flex-start;
+}
+
+.payment-4 {
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 14px;
+  margin-right: 14px;
+  position: relative;
+  width: 172px;
+  height: 91px;
+  margin-bottom: 0.14rem;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKwAAABbCAYAAADupm55AAADO0lEQVR4nO3bz4sbdRyH8SfZnQZtEdkW7UFQFxEtWhSLKPgDBE9eFA9DLt6keClFBY8SUexfIKJnDz15Vk8VKliUtlsVsQ1SbK22u3sQarPubiLfZRNi656k7rzheUHCZAiZgc/DN5OEtObn59lKv9t5ACi3OWB2yydK/90A+BU426vq81u92g3B9rudHcBrwGHgHgehbXAGeB842qvq4fTh/xHs5or66eaqypXBiO+XRywNRqwOnZtuns4M3HFLi0d2t9lZTQ5zHHi5V9W/j3dMgu13Ow8DXwK3n/tjxJGTaxy7NGQ4ckr6/+xowwt3z/Dm/hn23toqxy2XB0/1qvoC42D73c5twCng3s8vDHn9q1WurTslbZ+5TouPn53dWHGBE8CT5fKgvXlGb5VYTy4OOXTcWLX9lldGvHpsjYtXN97iHwdeKRvtfrezEzhUdr/z7ZrXqmqMEu2RU2vj03mj3JUV9jlgV/lwtbDsBaua5bNfhiwONrp86O3Vo/Ml2P3l0YkrLq1qnvURLCxNFtLHSrB7ytalq66uaqbLg0mbe0qwnbK14gKrhlqfarPtkJTEYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBXFYBVldnyyT+9ts6tyeGqefXOtyTlNgn3+rvbGTWoyC1UUg1UUg1UUg1UUg1UUg1UUg1UUg1UUg1UUg1UUg1UUg1UUg1WUEuxfjkwpSrBLTkshlkuwp52WQpwuwX4B/OnE1HA/9ar6x/YnZ9evAR85LTXch0x9S/Ae8JsTU0N9B3zAVLCLwIvAwImpYS4DL/WqeoXrvof9uvx5FrjoxNQQZ4AnelV9bnw61/9w8A3wIPDuZtnSdjgPHAYO9Kr65+njtw4+cx+P7r7xB6+D+2bKzgPA/cCd038Jl26C8pZfPkf90KvqhX99feBvdoKf4vo5lvwAAAAASUVORK5CYII=")
+    0% 0% / 100% 100% no-repeat;
+}
+
+.payment-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  font-family: PuHuiMedium;
+  font-weight: 700;
+}
+
+.payment-6 {
+  color: rgb(255, 255, 255);
+  font-family: PuHuiMedium;
+  font-size: 26px;
+  font-weight: 700;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.payment-7 {
+  font-size: 12px;
+  font-weight: 400;
+  font-stretch: normal;
+  line-height: 43px;
+  color: rgb(153, 153, 153);
+}
+
+.payment-8 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  padding: 0px 2px;
+  text-align: center;
+  font-size: 14px;
+  color: rgb(251, 56, 1);
+  margin-top: -57px;
+}
+
+.payment-9 {
+  display: block;
+  width: 100%;
+  height: 23px;
+  line-height: 23px;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+
+.payment-10 {
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 14px;
+  margin-right: 14px;
+  position: relative;
+  width: 172px;
+  height: 91px;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKwAAABbCAYAAADupm55AAADEklEQVR4nO3cz2sUdxyH8Wc20UVSuloEj7ZzaCtUL5XSw/TiPzBKz+PdSxF66D/Q0v+glF499VAkZ29iD0Iv1lJKWxBBxYrpwR9JjNls+a6buGpzKjbzhucFgZll2Rn4PMx8M0tS1XXNbupR9T5Qft4CFnd9o/TfrQN3gD+atru526e9Emw9qvYD54DzwNsOQnvgOvA18H3Tdlvzh38h2NkV9eLsqsp4Ak/GMN6CiWPTa1SVW/gAhgswqHaO8yPwadN2f22/sBNsPaqOA5eBg0+3YGVtwuqmI9L/q7T6xn44NKymAQNledA0bXer7ExfqkfVm8ByifXxU7j1yFi1N8qd/OEG3H40md7dgaPAD1eWL0xbHczO6gvgnfKGe6sTJt7/tcfKcvTu4wmbz1awHwFny8agHlVLwGdl5/7axLWqeqNEu7K+U+TnzK6wp8qyoVxdZ5dgqTfKEnX8rNkPrixfqEuwJ8reumtW9dTchfTDEuzhsrXpwlU9NX7+JPZwCXZYtuxVfTWf5sApKYnBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKorBKsri9skeWIRB5fDUP8OF56e0E+zSvoqlfU5L/eaSQFEMVlEMVlEMVlEMVlEMVlEMVlEMVlEMVlEMVlEMVlEMVlEMVlFKsBuOTClKsCtOSyH+LsFec1oKca0EewlYdWLqud+btvtt8GCDNeA7p6We+5a5pwRfAXedmHrqF+Ab5oK9D5wG1p2YeuYecKZpuye89Bz2KvAJcNuJqSeuAx83bffn9um8/MXBT8Ax4MtZ2dJeuAmcB042bXdj/vjV8fdqhguv/kOCg8NpzCeBd4Ej838SLr0G5ZZffo/6tWm7n//184F/AH3zidqllChEAAAAAElFTkSuQmCC")
+    0% 0% / 100% 100% no-repeat;
+  margin-bottom: 0.14rem;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.payment-40 {
+  list-style: none;
+}
+
+.payment-41 {
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0px;
+  height: 42px;
+  margin-top: 30px;
+}
+
+.payment-42 {
+  color: white;
+  font-size: 22px;
+}
+
+.payment-43 {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.payment-44 {
+  display: block;
+  border-style: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-right: 10px;
+  height: 16px;
+  object-fit: cover;
+}
+
+.payment-45 {
+  display: block;
+  border-style: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+
+.payment-56 {
+  backface-visibility: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  display: block;
+  width: 350px;
+  height: 52px;
+  margin: 49px auto 0px;
+  line-height: 52px;
+  text-decoration: none;
+  background-color: rgb(251, 56, 1);
+  border-radius: 25px;
+  font-size: 22px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.payment-56:focus {
+  outline: none;
+}
+
+.payment-57 {
+  display: block !important;
+  height: 1px;
+  border: none;
+  background-color: rgb(102, 102, 102);
+  margin: 0.5rem 0px 0.34rem;
+}
+
+.payment-58 {
+  width: 600px;
+  margin: 0px auto;
+  font-size: 18px;
+  color: rgb(153, 153, 153);
+  padding-bottom: 57px;
+}
+@media screen and (max-width: 600px) {
+  .payment-page-1 {
+    width: auto;
+  }
+  .payment-page-2 {
+    padding-left: 0;
+  }
+  .payment-1 {
+    margin-left: 0;
+  }
+  .payment-2 {
+    width: auto;
+    margin: 0 -8px;
+  }
+  .payment-4 {
+    width: calc((100vw - 36px)/2);
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .payment-10 {
+    width: calc((100vw - 36px)/2);
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .payment-40 {
+    padding: 0 8px;
+  }
+  .payment-56 {
+    margin: 0 8px;
+    width: auto;
+  }
+  .payment-58 {
+    width: auto;
+  }
+}

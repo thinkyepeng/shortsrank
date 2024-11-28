@@ -1,0 +1,41 @@
+const knex = require('./index');
+
+const TABLE_NAME = 'playlet_category_relations';
+
+const LIST_FIELDS = [
+  'id',
+  'playlet_id',
+  'category_id',
+  'sort',
+  'created',
+  'updated',
+];
+function getModel() {
+  return knex(TABLE_NAME);
+}
+function findBy(field, value) {
+  return getModel().where({ [field]: value }).first();
+}
+function find(userId) {
+  return findBy('id', userId);
+}
+function create(data) {
+  return getModel().returning(LIST_FIELDS).insert(data).then((ids) => find(ids[0]));
+}
+function findFirst(where) {
+  return getModel().where(where).first();
+}
+function findAll(where) {
+  return getModel().where(where).select('*');
+}
+
+module.exports = {
+  create,
+  find,
+  findBy,
+  findFirst,
+  getModel,
+  findAll,
+  LIST_FIELDS,
+  TABLE_NAME,
+};

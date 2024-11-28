@@ -1,0 +1,483 @@
+.search-1 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  z-index: 5;
+  background-color: hsla(0, 0%, 100%, 1);
+  top: 0px;
+}
+
+.search-2 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.search-3 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  list-style: none;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  margin: 0;
+  max-width: 70rem;
+  padding-right: 40px;
+}
+
+@media screen and (max-width: 1420px) {
+  .search-3 {
+    padding-right: 65px;
+  }
+}
+.search-4 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  grid-column-start: 2;
+}
+
+.search-5 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  padding-left: clamp(calc(3 * 0.5rem), 2.8vw, calc(5 * 0.5rem));
+  padding-right: 10px;
+  margin-right: auto;
+}
+
+@media (min-width: 593px) {
+  .search-5 {
+    display: none;
+  }
+}
+.search-6 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  padding-right: calc(1 * 0.5rem);
+}
+
+.search-7 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  background-color: transparent;
+  border: none;
+  width: calc(4 * 0.5rem);
+  height: calc(4 * 0.5rem);
+  outline: transparent solid 1px;
+  transition: background-color 0.6s ease 0s;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  border-radius: calc(999 * 0.5rem);
+  font: inherit;
+}
+
+.search-7:active {
+  transition: background-color 0s ease 0s;
+  background-color: hsla(246, 16%, 26%, 0.3);
+}
+
+.search-7:hover {
+  transition: background-color 0.3s ease 0s;
+  background-color: hsla(246, 16%, 26%, 0.1);
+}
+
+.search-7:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0px;
+  border-radius: calc(999 * 0.5rem);
+}
+
+.search-8 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  color: hsla(0, 0%, 13%, 1);
+}
+
+.search-9 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  width: calc(3 * 0.5rem);
+  height: calc(3 * 0.5rem);
+}
+
+.search-10 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.search-11 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  padding-top: calc(2 * 0.5rem);
+  padding-bottom: calc(2 * 0.5rem);
+}
+
+@media screen and (max-width: 593px) {
+  .search-11 {
+    padding-left: 14px;
+  }
+}
+.search-12 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.search-13 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.search-14 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.search-15 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  width: calc(6 * 0.5rem);
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}
+
+.search-16 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  color: hsla(0, 0%, 13%, 1);
+}
+
+.search-17 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  color: hsla(252, 13%, 46%, 1);
+}
+
+.search-18 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  width: calc(3 * 0.5rem);
+  height: calc(3 * 0.5rem);
+}
+
+.search-19 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.search-20 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.search-21 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  font: inherit;
+  background-clip: border-box;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  font-family: inherit;
+  height: calc(4.5 * 0.5rem);
+  border: none;
+  color: inherit;
+  background-color: hsla(0, 0%, 100%, 1);
+  transition: box-shadow 0.3s ease 0s;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: calc(5.5 * 0.5rem);
+  padding-right: calc(5.5 * 0.5rem);
+  border-radius: calc(999 * 0.5rem);
+  box-shadow: inset 0 0 0 1px hsla(260, 11%, 85%, 1);
+  font-size: calc(1.75 * 0.5rem);
+  line-height: 1.6;
+}
+
+.search-21:focus {
+  outline: transparent solid 1px;
+  box-shadow: inset 0 0 0 2px hsla(242, 88.4%, 66.3%, 1),
+    0 0 0 2px hsla(242, 88.4%, 66.3%, 0.5);
+}
+
+.search-21:hover {
+  box-shadow: inset 0 0 0 2px hsla(242, 88.4%, 66.3%, 1);
+}
+
+.search-22 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  padding-top: calc(2 * 0.5rem);
+  padding-bottom: calc(2 * 0.5rem);
+}
+
+.search-23 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  padding-left: calc(2 * 0.5rem);
+  padding-right: calc(2 * 0.5rem);
+}
+
+.search-24 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  padding: 0 calc(2 * 0.5rem);
+  font-style: inherit;
+  font-variant: inherit;
+  font-stretch: inherit;
+  font-family: inherit;
+  font-optical-sizing: inherit;
+  font-kerning: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  text-decoration: none;
+  transition: background 0.6s ease 0s, border-color 0.6s ease 0s;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  border-radius: calc(999 * 0.5rem);
+  height: calc(4.5 * 0.5rem);
+  min-width: calc(4.5 * 0.5rem);
+  font-size: calc(1.75 * 0.5rem);
+  line-height: 1.6;
+  border: none;
+  background-position: left center;
+  background-size: 125%;
+  color: hsla(0, 0%, 100%, 1);
+  background-color: rgb(98, 93, 245);
+}
+
+.search-24:active {
+  transition: background 0s ease 0s, border-color 0s ease 0s;
+  background-position: right center;
+}
+
+.search-24:hover {
+  transition: background 0.3s ease 0s, border-color 0.3s ease 0s;
+  background-position: 75% center;
+}
+
+.search-25 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  padding-right: calc(1 * 0.5rem);
+  transition: opacity 0.5s ease 0s;
+}
+
+.search-26 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  color: currentcolor;
+}
+
+.search-27 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  height: calc(3 * 0.5rem);
+}
+
+.search-28 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.search-29 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  transition: opacity 0.5s ease 0s;
+}
+
+.search-30 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  margin-left: auto;
+  right: 0px;
+  top: 0px;
+}
+
+.search-31 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.search-32 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  padding-left: calc(2 * 0.5rem);
+  padding-right: calc(2 * 0.5rem);
+  padding-top: calc(2 * 0.5rem);
+  padding-bottom: calc(2 * 0.5rem);
+}
+
+.search-33 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  -webkit-box-align: center;
+  margin-right: calc(-1 * calc(2 * 0.5rem));
+  margin-bottom: calc(-1 * calc(2 * 0.5rem));
+}
+
+.search-34 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  margin-right: calc(2 * 0.5rem);
+  margin-bottom: calc(2 * 0.5rem);
+}
+
+.search-35 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  list-style: none;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.search-36 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.search-37 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  border-radius: calc(999 * 0.5rem);
+}
+
+.search-38 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.search-39 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  background: none;
+  border: none;
+  border-radius: calc(999 * 0.5rem);
+  z-index: 1;
+}
+
+.search-39:after {
+  background-color: hsla(0, 0%, 13%, 1);
+  border-radius: 50%;
+  content: "";
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  transition-duration: 0.2s;
+  transition-property: opacity;
+  width: 100%;
+}
+
+.search-40 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  color: hsla(11, 79.9%, 64.9%, 1);
+  background-color: hsla(0, 0%, 100%, 1);
+  border-radius: calc(999 * 0.5rem);
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  line-height: 1;
+  width: calc(4.5 * 0.5rem);
+  height: calc(4.5 * 0.5rem);
+  font-size: calc(calc(4.5 * 0.5rem) / 1.75);
+  z-index: 0;
+}
+
+.search-40:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0.2;
+  z-index: -1;
+  background-color: hsla(11, 79.9%, 64.9%, 1);
+}
+
+.search-41 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  bottom: 16px;
+  right: 16px;
+  z-index: 101;
+}
+
+.search-42 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  padding-top: calc(2 * 0.5rem);
+}
+
+.search-43 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  background-color: hsla(0, 0%, 100%, 1);
+  border-radius: calc(999 * 0.5rem);
+}
+
+.search-44 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  background-color: hsla(246, 16%, 26%, 0.04);
+  border-radius: 50%;
+  box-shadow: 0 calc(0.75 * 0.5rem) calc(3 * 0.5rem) hsla(0, 0%, 0%, 0.1);
+  height: 48px;
+  outline: none;
+  width: 48px;
+  border: 1px solid hsla(252, 13%, 46%, 0.2);
+}
+
+.search-44:active {
+  background-color: hsla(240, 83.3%, 95.3%, 1);
+}
+
+.search-44:hover {
+  border: 2px solid hsla(242, 88.4%, 66.3%, 1);
+}
+
+.search-45 {
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  font-size: calc(3 * 0.5rem);
+  line-height: 1.35;
+  color: hsla(0, 0%, 13%, 1);
+}

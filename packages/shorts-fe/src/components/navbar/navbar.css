@@ -1,0 +1,2375 @@
+.navbar-1 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  height: 100%;
+  padding-top: calc(2 * 0.5rem);
+  padding-right: calc(1 * 0.5rem);
+  padding-left: calc(1 * 0.5rem);
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-9 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  border-radius: calc(1 * 0.5rem);
+  display: none;
+  height: 32px;
+  opacity: 0;
+  position: absolute;
+  right: 0.5rem;
+  top: 1.25rem;
+  transform: translateX(0);
+  transition: opacity 300ms ease, transform 300ms ease;
+  width: 32px;
+}
+
+@media (min-width: 593px) {
+  .navbar-9 {
+    display: block;
+  }
+}
+.navbar-10 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+}
+
+.navbar-11 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  background-color: transparent;
+  border: none;
+  appearance: none;
+  cursor: pointer;
+  padding: 0px;
+  width: calc(4 * 0.5rem);
+  height: calc(4 * 0.5rem);
+  position: relative;
+  outline: transparent solid 1px;
+  transition: background-color 0.6s ease 0s;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  vertical-align: middle;
+  border-radius: calc(999 * 0.5rem);
+  font: inherit;
+}
+
+.navbar-11:active {
+  transition: background-color 0s ease 0s;
+  background-color: hsla(246, 16%, 26%, 0.3);
+}
+
+.navbar-11:hover {
+  transition: background-color 0.3s ease 0s;
+  background-color: hsla(246, 16%, 26%, 0.1);
+}
+
+.navbar-11:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0px;
+  border-radius: calc(999 * 0.5rem);
+}
+
+.navbar-12 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  color: hsla(0, 0%, 13%, 1);
+}
+
+.navbar-13 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  width: calc(3 * 0.5rem);
+  height: calc(3 * 0.5rem);
+}
+
+.navbar-14 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-15 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-16 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  position: relative;
+  height: auto;
+}
+
+.navbar-17 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  position: relative;
+}
+
+.navbar-18 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+}
+
+.navbar-19 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  background: hsla(0, 0%, 100%, 1);
+  border: 1px solid hsla(252, 13%, 46%, 0.2);
+  cursor: pointer;
+  font-family: inherit;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+  border-top-left-radius: calc(2 * 0.5rem);
+  border-top-right-radius: calc(2 * 0.5rem);
+  color: inherit;
+  height: 3.75rem;
+}
+
+.navbar-19:hover {
+  border-color: hsla(242, 88.4%, 66.3%, 1);
+  box-shadow: inset 0 0 0 1px hsla(242, 88.4%, 66.3%, 1);
+}
+
+.navbar-20 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  transform-origin: center center;
+  transition: all 150ms 0ms ease;
+  width: 100%;
+  will-change: opacity, transform;
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.75);
+}
+
+.navbar-21 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: grid;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  grid-auto-flow: column;
+  height: calc(6 * 0.5rem);
+}
+
+.navbar-22 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  color: hsla(11, 79.9%, 64.9%, 1);
+  background-color: hsla(0, 0%, 100%, 1);
+  border-radius: calc(999 * 0.5rem);
+  overflow: hidden;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  line-height: 1;
+  font-weight: 700;
+  width: calc(4 * 0.5rem);
+  height: calc(4 * 0.5rem);
+  font-size: calc(calc(4 * 0.5rem) / 1.75);
+  position: relative;
+  z-index: 0;
+}
+
+.navbar-22:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0.2;
+  z-index: -1;
+  background-color: hsla(11, 79.9%, 64.9%, 1);
+}
+
+.navbar-23 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  transform-origin: center center;
+  transition: all 150ms 0ms ease;
+  will-change: opacity, transform;
+  padding: 0.5625rem calc(2 * 0.5rem);
+  width: 100%;
+}
+
+.navbar-24 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: grid;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  justify-content: start;
+  grid-template-columns: 1fr 1.5rem;
+  width: 100%;
+}
+
+.navbar-25 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  width: 100%;
+}
+
+.navbar-26 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  max-width: 166px;
+  display: block;
+  font-size: calc(1.75 * 0.5rem);
+  line-height: 1.6;
+  font-weight: 700;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.navbar-27 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  font-size: calc(1.5 * 0.5rem);
+  line-height: 1.5;
+  font-weight: 400;
+  color: hsla(252, 13%, 46%, 1);
+  text-align: left;
+}
+
+.navbar-28 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  color: hsla(0, 0%, 13%, 1);
+}
+
+.navbar-29 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  width: calc(3 * 0.5rem);
+  height: calc(3 * 0.5rem);
+}
+
+.navbar-30 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-31 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+}
+
+.navbar-32 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  background: hsla(0, 0%, 100%, 1);
+  border: 1px solid hsla(252, 13%, 46%, 0.2);
+  cursor: pointer;
+  font-family: inherit;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+  border-bottom-left-radius: calc(2 * 0.5rem);
+  border-bottom-right-radius: calc(2 * 0.5rem);
+  border-top-color: transparent;
+  color: hsla(0, 0%, 13%, 1);
+  min-height: 2.8rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.navbar-32:active {
+  background-color: hsla(242, 87.6%, 62%, 1);
+  border-color: hsla(242, 87.6%, 62%, 1);
+  color: hsla(0, 0%, 100%, 1);
+}
+
+.navbar-32:hover {
+  background-color: hsla(242, 88.4%, 66.3%, 1);
+  border-color: hsla(242, 88.4%, 66.3%, 1);
+  color: hsla(0, 0%, 100%, 1);
+}
+
+.navbar-33 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  align-items: center;
+  display: flex;
+  min-height: 1.5rem;
+  width: max-content;
+}
+
+.navbar-34 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  transform-origin: center center;
+  transition: transform 0.3s ease 0s;
+  transform: scale(0.75);
+}
+
+.navbar-35 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  color: currentcolor;
+}
+
+.navbar-36 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  width: calc(3 * 0.5rem);
+  height: calc(3 * 0.5rem);
+}
+
+.navbar-37 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-38 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-39 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+  padding-right: calc(1 * 0.5rem);
+}
+
+.navbar-40 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+}
+
+.navbar-41 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  font-size: calc(1.5 * 0.5rem);
+  line-height: 1.5;
+  font-weight: 700;
+  color: currentcolor;
+  transform-origin: center center;
+  transition: opacity 300ms 50ms ease, transform 300ms 50ms ease;
+  will-change: opacity, transform;
+  opacity: 1;
+}
+
+.navbar-42 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  overflow: hidden auto;
+  padding-top: calc(3 * 0.5rem);
+  padding-bottom: calc(3 * 0.5rem);
+}
+
+.navbar-43 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: grid;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  justify-content: start;
+  grid-template-columns: 1fr;
+  gap: 2px;
+  grid-auto-flow: row;
+}
+
+.navbar-44 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: grid;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  justify-content: start;
+  grid-template-columns: 1fr;
+  gap: 2px;
+  grid-auto-flow: row;
+}
+
+.navbar-45 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+}
+
+.navbar-46 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  background: transparent;
+  border: none;
+  border-radius: calc(999 * 0.5rem);
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  font-family: inherit;
+  padding: 0.375rem 0.75rem;
+  transition: color 300ms ease, background-color 300ms ease, padding 300ms ease;
+  width: 100%;
+  will-change: color, background-color;
+}
+
+.navbar-46:hover {
+  background: hsla(240, 83.3%, 66.3%, 0.15);
+  color: hsla(242, 88.4%, 66.3%, 1);
+}
+
+.navbar-47 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: grid;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  grid-auto-flow: column;
+}
+
+.navbar-48 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  height: 1.5rem;
+  position: relative;
+  align-items: center;
+  display: flex;
+  transition: transform 300ms ease;
+  width: 100%;
+}
+
+.navbar-49 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  color: currentcolor;
+}
+
+.navbar-50 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  width: calc(3 * 0.5rem);
+  height: calc(3 * 0.5rem);
+}
+
+.navbar-51 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-52 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+  padding-right: calc(1 * 0.5rem);
+}
+
+.navbar-53 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  align-items: center;
+  display: flex;
+  height: 1.5rem;
+  max-width: calc(15rem - 58px);
+  transition: opacity 0.15s ease 60ms;
+  width: max-content;
+}
+
+.navbar-54 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  font-size: calc(1.75 * 0.5rem);
+  line-height: 1.6;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 700;
+  max-width: 120px;
+}
+
+.navbar-55 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+}
+
+.navbar-56 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  border: none;
+  border-radius: calc(999 * 0.5rem);
+  cursor: pointer;
+  display: block;
+  font-family: inherit;
+  padding: 0.375rem 0.75rem;
+  transition: color 300ms ease, background-color 300ms ease, padding 300ms ease;
+  width: 100%;
+  will-change: color, background-color;
+  background: hsla(240, 83.3%, 66.3%, 0.15);
+  color: hsla(242, 88.4%, 66.3%, 1);
+}
+
+.navbar-57 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: grid;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  grid-auto-flow: column;
+}
+
+.navbar-58 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  height: 1.5rem;
+  position: relative;
+  align-items: center;
+  display: flex;
+  transition: transform 300ms ease;
+  width: 100%;
+}
+
+.navbar-59 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  color: currentcolor;
+}
+
+.navbar-60 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  width: calc(3 * 0.5rem);
+  height: calc(3 * 0.5rem);
+}
+
+.navbar-61 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-62 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-63 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-64 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+  padding-right: calc(1 * 0.5rem);
+}
+
+.navbar-65 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  align-items: center;
+  display: flex;
+  height: 1.5rem;
+  max-width: calc(15rem - 58px);
+  transition: opacity 0.15s ease 60ms;
+  width: max-content;
+}
+
+.navbar-66 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  font-size: calc(1.75 * 0.5rem);
+  line-height: 1.6;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 120px;
+  font-weight: 700;
+}
+
+.navbar-67 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+}
+
+.navbar-68 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  background: transparent;
+  border: none;
+  border-radius: calc(999 * 0.5rem);
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  font-family: inherit;
+  padding: 0.375rem 0.75rem;
+  transition: color 300ms ease, background-color 300ms ease, padding 300ms ease;
+  width: 100%;
+  will-change: color, background-color;
+}
+
+.navbar-68:hover {
+  background: hsla(240, 83.3%, 66.3%, 0.15);
+  color: hsla(242, 88.4%, 66.3%, 1);
+}
+
+.navbar-69 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: grid;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  grid-auto-flow: column;
+}
+
+.navbar-70 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  height: 1.5rem;
+  position: relative;
+  align-items: center;
+  display: flex;
+  transition: transform 300ms ease;
+  width: 100%;
+}
+
+.navbar-71 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  color: currentcolor;
+}
+
+.navbar-72 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  width: calc(3 * 0.5rem);
+  height: calc(3 * 0.5rem);
+}
+
+.navbar-73 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-74 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+  padding-right: calc(1 * 0.5rem);
+}
+
+.navbar-75 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  align-items: center;
+  display: flex;
+  height: 1.5rem;
+  max-width: calc(15rem - 58px);
+  transition: opacity 0.15s ease 60ms;
+  width: max-content;
+}
+
+.navbar-76 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  font-size: calc(1.75 * 0.5rem);
+  line-height: 1.6;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 700;
+  max-width: 120px;
+}
+
+.navbar-77 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+}
+
+.navbar-78 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  background: transparent;
+  border: none;
+  border-radius: calc(999 * 0.5rem);
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  font-family: inherit;
+  padding: 0.375rem 0.75rem;
+  transition: color 300ms ease, background-color 300ms ease, padding 300ms ease;
+  width: 100%;
+  will-change: color, background-color;
+}
+
+.navbar-78:hover {
+  background: hsla(240, 83.3%, 66.3%, 0.15);
+  color: hsla(242, 88.4%, 66.3%, 1);
+}
+
+.navbar-79 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: grid;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  grid-auto-flow: column;
+}
+
+.navbar-80 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  height: 1.5rem;
+  position: relative;
+  align-items: center;
+  display: flex;
+  transition: transform 300ms ease;
+  width: 100%;
+}
+
+.navbar-81 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  color: currentcolor;
+}
+
+.navbar-82 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  width: calc(3 * 0.5rem);
+  height: calc(3 * 0.5rem);
+}
+
+.navbar-83 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-84 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+  padding-right: calc(1 * 0.5rem);
+}
+
+.navbar-85 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  align-items: center;
+  display: flex;
+  height: 1.5rem;
+  max-width: calc(15rem - 58px);
+  transition: opacity 0.15s ease 60ms;
+  width: max-content;
+}
+
+.navbar-86 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  font-size: calc(1.75 * 0.5rem);
+  line-height: 1.6;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 700;
+  max-width: 120px;
+}
+
+.navbar-87 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+}
+
+.navbar-88 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  background: transparent;
+  border: none;
+  border-radius: calc(999 * 0.5rem);
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  font-family: inherit;
+  padding: 0.375rem 0.75rem;
+  transition: color 300ms ease, background-color 300ms ease, padding 300ms ease;
+  width: 100%;
+  will-change: color, background-color;
+}
+
+.navbar-88:hover {
+  background: hsla(240, 83.3%, 66.3%, 0.15);
+  color: hsla(242, 88.4%, 66.3%, 1);
+}
+
+.navbar-89 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: grid;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  grid-auto-flow: column;
+}
+
+.navbar-90 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  height: 1.5rem;
+  position: relative;
+  align-items: center;
+  display: flex;
+  transition: transform 300ms ease;
+  width: 100%;
+}
+
+.navbar-91 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  color: currentcolor;
+}
+
+.navbar-92 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  width: calc(3 * 0.5rem);
+  height: calc(3 * 0.5rem);
+}
+
+.navbar-93 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-94 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-95 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+  padding-right: calc(1 * 0.5rem);
+}
+
+.navbar-96 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  align-items: center;
+  display: flex;
+  height: 1.5rem;
+  max-width: calc(15rem - 58px);
+  transition: opacity 0.15s ease 60ms;
+  width: max-content;
+}
+
+.navbar-97 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  font-size: calc(1.75 * 0.5rem);
+  line-height: 1.6;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 700;
+  max-width: 120px;
+}
+
+.navbar-98 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  position: relative;
+}
+
+.navbar-99 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  background: transparent;
+  border: none;
+  border-radius: calc(999 * 0.5rem);
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  font-family: inherit;
+  padding: 0.375rem 0.75rem;
+  transition: color 300ms ease, background-color 300ms ease, padding 300ms ease;
+  width: 100%;
+  will-change: color, background-color;
+}
+
+.navbar-99:hover {
+  background: hsla(240, 83.3%, 66.3%, 0.15);
+  color: hsla(242, 88.4%, 66.3%, 1);
+}
+
+.navbar-100 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  height: 1.5rem;
+  position: relative;
+  align-items: center;
+  display: flex;
+  transition: transform 300ms ease;
+  width: 100%;
+}
+
+.navbar-101 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  color: currentcolor;
+}
+
+.navbar-102 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  width: calc(3 * 0.5rem);
+  height: calc(3 * 0.5rem);
+}
+
+.navbar-103 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-104 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-105 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+  padding-right: calc(1 * 0.5rem);
+}
+
+.navbar-106 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  align-items: center;
+  display: flex;
+  height: 1.5rem;
+  max-width: calc(15rem - 58px);
+  transition: opacity 0.15s ease 60ms;
+  width: max-content;
+}
+
+.navbar-107 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  font-size: calc(1.75 * 0.5rem);
+  line-height: 1.6;
+  font-weight: 700;
+  max-width: 120px;
+}
+
+.navbar-108 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center end;
+}
+
+.navbar-109 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-110 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  color: inherit;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-111 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  background: transparent;
+  border: none;
+  border-radius: calc(999 * 0.5rem);
+  color: inherit;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0.375rem 0.75rem;
+  transition: color 300ms ease, background-color 300ms ease, padding 300ms ease;
+  width: 100%;
+  will-change: color, background-color;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-111:hover {
+  background: hsla(240, 83.3%, 66.3%, 0.15);
+  color: hsla(242, 88.4%, 66.3%, 1);
+}
+
+.navbar-112 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  border-right: 2px solid hsla(252, 13%, 46%, 0.2);
+  height: 18px;
+  margin-right: 12px;
+  width: 12px;
+}
+
+.navbar-113 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+  padding-right: calc(1 * 0.5rem);
+}
+
+.navbar-114 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  font-size: calc(1.75 * 0.5rem);
+  line-height: 1.6;
+  font-weight: 700;
+}
+
+.navbar-115 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  color: inherit;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-116 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  background: transparent;
+  border: none;
+  border-radius: calc(999 * 0.5rem);
+  color: inherit;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0.375rem 0.75rem;
+  transition: color 300ms ease, background-color 300ms ease, padding 300ms ease;
+  width: 100%;
+  will-change: color, background-color;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-116:hover {
+  background: hsla(240, 83.3%, 66.3%, 0.15);
+  color: hsla(242, 88.4%, 66.3%, 1);
+}
+
+.navbar-117 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  border-right: 2px solid hsla(252, 13%, 46%, 0.2);
+  height: 18px;
+  margin-right: 12px;
+  width: 12px;
+}
+
+.navbar-118 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+  padding-right: calc(1 * 0.5rem);
+}
+
+.navbar-119 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  font-size: calc(1.75 * 0.5rem);
+  line-height: 1.6;
+  font-weight: 700;
+}
+
+.navbar-120 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+  padding-top: calc(3 * 0.5rem);
+  padding-bottom: calc(3 * 0.5rem);
+}
+
+.navbar-121 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  border-bottom: 1px solid hsla(252, 13%, 46%, 0.2);
+}
+
+.navbar-122 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  transition: opacity 0.3s ease 0s;
+  padding-bottom: calc(1 * 0.5rem);
+  padding-left: calc(0.5 * 0.5rem);
+  padding-right: calc(0.5 * 0.5rem);
+}
+
+.navbar-123 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: grid;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  grid-auto-flow: column;
+}
+
+.navbar-124 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: grid;
+  -webkit-box-align: baseline;
+  align-items: baseline;
+  -webkit-box-pack: start;
+  justify-content: start;
+  grid-auto-flow: column;
+  gap: calc(0.5 * 0.5rem);
+}
+
+.navbar-125 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  font-size: calc(1.75 * 0.5rem);
+  line-height: 1.6;
+  font-weight: 700;
+  color: hsla(252, 13%, 46%, 1);
+}
+
+.navbar-126 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-127 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+}
+
+.navbar-128 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  background-color: transparent;
+  border: none;
+  appearance: none;
+  cursor: pointer;
+  padding: 0px;
+  width: calc(3 * 0.5rem);
+  height: calc(3 * 0.5rem);
+  position: relative;
+  outline: transparent solid 1px;
+  transition: background-color 0.6s ease 0s;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  vertical-align: middle;
+  border-radius: calc(999 * 0.5rem);
+  font: inherit;
+}
+
+.navbar-128:active {
+  transition: background-color 0s ease 0s;
+  background-color: hsla(246, 16%, 26%, 0.3);
+}
+
+.navbar-128:hover {
+  transition: background-color 0.3s ease 0s;
+  background-color: hsla(246, 16%, 26%, 0.1);
+}
+
+.navbar-128:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0px;
+  border-radius: calc(999 * 0.5rem);
+}
+
+.navbar-129 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  color: hsla(0, 0%, 13%, 1);
+}
+
+.navbar-130 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  width: calc(2.25 * 0.5rem);
+  height: calc(2.25 * 0.5rem);
+}
+
+.navbar-131 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-132 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+}
+
+.navbar-133 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  background: transparent;
+  border: none;
+  border-radius: calc(999 * 0.5rem);
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  font-family: inherit;
+  padding: 0.375rem 0.75rem;
+  transition: color 300ms ease, background-color 300ms ease, padding 300ms ease;
+  width: 100%;
+  will-change: color, background-color;
+}
+
+.navbar-133:hover {
+  background: hsla(240, 83.3%, 66.3%, 0.15);
+  color: hsla(242, 88.4%, 66.3%, 1);
+}
+
+.navbar-134 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: grid;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  grid-auto-flow: column;
+}
+
+.navbar-135 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  height: 1.5rem;
+  position: relative;
+  align-items: center;
+  display: flex;
+  transition: transform 300ms ease;
+  width: 100%;
+}
+
+.navbar-136 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  color: currentcolor;
+}
+
+.navbar-137 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  padding-left: calc(0.5 * 0.5rem);
+  padding-right: calc(0.5 * 0.5rem);
+}
+
+.navbar-138 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  height: calc(2 * 0.5rem);
+  width: calc(2 * 0.5rem);
+}
+
+.navbar-139 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-140 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-141 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-142 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+  padding-right: calc(1 * 0.5rem);
+}
+
+.navbar-143 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  align-items: center;
+  display: flex;
+  height: 1.5rem;
+  max-width: calc(15rem - 58px);
+  transition: opacity 0.15s ease 60ms;
+  width: max-content;
+}
+
+.navbar-144 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  font-size: calc(1.75 * 0.5rem);
+  line-height: 1.6;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 700;
+  max-width: 120px;
+}
+
+.navbar-145 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-146 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-147 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+}
+
+.navbar-148 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+}
+
+.navbar-149 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  background: transparent;
+  border: none;
+  border-radius: calc(999 * 0.5rem);
+  cursor: pointer;
+  display: block;
+  font-family: inherit;
+  padding: 0.375rem 0.75rem;
+  transition: color 300ms ease, background-color 300ms ease, padding 300ms ease;
+  width: 100%;
+  will-change: color, background-color;
+  color: hsla(252, 13%, 46%, 1);
+}
+
+.navbar-149:hover {
+  background: hsla(240, 83.3%, 66.3%, 0.15);
+  color: hsla(242, 88.4%, 66.3%, 1);
+}
+
+.navbar-150 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: grid;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  grid-auto-flow: column;
+}
+
+.navbar-151 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  height: 1.5rem;
+  position: relative;
+  align-items: center;
+  display: flex;
+  transition: transform 300ms ease;
+  width: 100%;
+}
+
+.navbar-152 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  color: currentcolor;
+}
+
+.navbar-153 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  border-radius: 6px;
+  user-select: none;
+  background-color: hsla(206, 100%, 93%, 1);
+  width: 24px;
+  height: 24px;
+  padding-top: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-154 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: grid;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  grid-auto-flow: column;
+}
+
+.navbar-155 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  font-size: calc(1.75 * 0.5rem);
+  line-height: 1.6;
+  font-weight: 700;
+  color: hsla(206, 29.5%, 33.9%, 1);
+}
+
+.navbar-156 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+  padding-right: calc(1 * 0.5rem);
+}
+
+.navbar-157 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  align-items: center;
+  display: flex;
+  height: 1.5rem;
+  max-width: calc(15rem - 58px);
+  transition: opacity 0.15s ease 60ms;
+  width: max-content;
+}
+
+.navbar-158 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  font-size: calc(1.75 * 0.5rem);
+  line-height: 1.6;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 700;
+  max-width: 120px;
+}
+
+.navbar-159 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  width: 18px;
+  height: 18px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+}
+
+.navbar-160 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: none;
+}
+
+.navbar-161 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-162 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-163 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-164 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+  padding-top: calc(3 * 0.5rem);
+  padding-bottom: calc(3 * 0.5rem);
+}
+
+.navbar-165 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  border-bottom: 1px solid hsla(252, 13%, 46%, 0.2);
+}
+
+.navbar-166 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-grow: 1;
+  padding-left: 0px;
+}
+
+.navbar-167 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  position: relative;
+  padding-top: calc(1 * 0.5rem);
+  padding-bottom: calc(1.5 * 0.5rem);
+  left: calc(-1 * calc(1 * 0.5rem));
+}
+
+.navbar-168 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  background-color: hsla(242, 88.4%, 66.3%, 1);
+  border-color: transparent;
+  border-radius: 0 calc(3rem / 2) calc(3rem / 2) 0;
+  box-shadow: 0 calc(0.75 * 0.5rem) calc(3 * 0.5rem) hsla(0, 0%, 0%, 0.1);
+  color: hsla(0, 0%, 100%, 1);
+  cursor: pointer;
+  font: inherit;
+  height: 3rem;
+  overflow: hidden;
+  padding-left: calc(2 * 0.5rem);
+  padding-right: calc(2 * 0.5rem);
+  width: 10.25rem;
+  transition: width 300ms ease;
+}
+
+.navbar-168:focus {
+  outline: none;
+}
+
+.navbar-168:active {
+  background-color: hsla(242, 88.4%, 45.3%, 1);
+  transition: background-color 0s ease 0s, border-color 0s ease 0s;
+}
+
+.navbar-168:hover {
+  background-color: hsla(242, 88.4%, 56.3%, 1);
+  transition: background-color 0.3s ease 0s, border-color 0.3s ease 0s;
+}
+
+.navbar-169 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: flex;
+  height: 1.5rem;
+  position: relative;
+  width: max-content;
+}
+
+.navbar-170 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  max-width: calc(3 * 0.5rem);
+}
+
+.navbar-171 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: calc(3 * 0.5rem);
+}
+
+.navbar-172 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+}
+
+.navbar-173 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  vertical-align: middle;
+  padding-right: calc(1 * 0.5rem);
+}
+
+.navbar-174 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  align-items: center;
+  display: flex;
+  height: 1.5rem;
+  max-width: calc(15rem - 58px);
+  transition: opacity 0.15s ease 60ms;
+  width: max-content;
+}
+
+.navbar-175 {
+  margin: 0px;
+  outline-color: hsla(242, 88.4%, 66.3%, 0.5);
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: calc(0.6px - 0.05em);
+  display: block;
+  font-size: calc(1.75 * 0.5rem);
+  line-height: 1.6;
+  font-weight: 700;
+}
